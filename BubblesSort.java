@@ -17,7 +17,12 @@ public class BubblesSort extends Sorts {
     
     System.out.println( "Doing " + name + " Sort:" );
     boolean continueLoop;
+    int count = 1;
+    
     do {
+      
+      System.out.print( "Step #" + count + " " );
+      printArray();
       
       continueLoop = false;
       for( int i = 0; i < bubble.length-1; i++ ) {
@@ -26,6 +31,8 @@ public class BubblesSort extends Sorts {
          continueLoop = true;
         }
       }
+      
+      count++;
       
     } while( continueLoop );
   }

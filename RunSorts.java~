@@ -10,8 +10,11 @@ public class RunSorts {
   public static void main( String[] args ) {
     
     // Bubble Sort
-    BubbleSort b = new BubbleSort();
-    System.out.println
+    BubblesSort b = new BubblesSort();
+    System.out.println( b );
+    b.sort();
+    System.out.println( b );
+    
     // Selection Sort
     
     // Insertion Sort
