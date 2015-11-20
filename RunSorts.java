@@ -21,9 +21,15 @@ public class RunSorts {
     s.sort();
     System.out.println( "Sorted: " + s + "\n" );
     // Insertion Sort
-    
+    InserstionSort i = new InserstionSort();
+    System.out.println( "Unstorted: " + i );
+    i.sort();
+    System.out.println( "Sorted: " + i + "\n" );
     // Quick Sort
-    
+    QuickSort q = new QuickSort();
+    System.out.println( "Unstorted: " + q );
+    q.sort();
+    System.out.println( "Sorted: " + q + "\n" );
     // Merge Sort
     
     // Radix Sort???
