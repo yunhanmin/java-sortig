@@ -19,7 +19,8 @@ public class QuickSort extends Sorts {
   
   // methods
   public void sort() {
-   
+   System.out.println( "Doing" + name + " Sort " );
+   sort( left, right );
   }
   
   public void sort( int left, int right ) {

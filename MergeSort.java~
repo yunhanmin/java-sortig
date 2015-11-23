@@ -1,0 +1,5 @@
+// MergeSort.java
+
+public class MergeSort extends Sorts {
+  
+} // END MergeSort
